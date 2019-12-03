@@ -1,6 +1,6 @@
 define([
   "./decouple",
-  "Emitter"
+  "./Emitter"
 ],function(decouple,Emitter){
   /**
    * Privates

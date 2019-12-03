@@ -125,7 +125,7 @@ define('skylark-slideout/decouple',[],function(){
 
   return decouple;
 });
-define('Emitter',[],function(){
+define('skylark-slideout/Emitter',[],function(){
   /**
    * Creates a new instance of Emitter.
    * @class
@@ -268,7 +268,7 @@ define('Emitter',[],function(){
 });
 define('skylark-slideout/Slideout',[
   "./decouple",
-  "Emitter"
+  "./Emitter"
 ],function(decouple,Emitter){
   /**
    * Privates
